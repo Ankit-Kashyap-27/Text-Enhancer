@@ -1,12 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const Navbar = () => {
+
+const Navbar = (props) => {
     return (
         <nav className='bg-green-50 py-3 '>
             <div className='flex justify-between items-center '>
                 <div className='flex gap-7 '>
                     <div className=" mx-2">
-                        <span className='text-xl'>TextUtils</span>
+                        <span className='text-xl'>{props.title}</span>
                     </div>
 
                     <div>
@@ -28,3 +30,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
