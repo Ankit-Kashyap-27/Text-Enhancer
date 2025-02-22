@@ -38,7 +38,7 @@ function App() {
           </div>
 
           <div className=" ">
-            <textarea className='w-[70vw] border-4 border-blue-300 rounded-lg text-xl ' onChange={handleOnchange} name="" id="" value={Text} rows={7}></textarea>
+            <textarea className={` text-black w-[70vw] border-4 border-blue-300 rounded-lg text-xl`} onChange={handleOnchange} name="" id="" value={Text} rows={7}></textarea>
           </div>
 
           <div className="">
